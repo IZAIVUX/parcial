@@ -4,6 +4,8 @@
  */
 package clases;
 
+import formularios.calculadora;
+
 /**
  *
  * @author Sala de Sistemas
@@ -14,7 +16,10 @@ public class repositorio {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        calculadora calcu = new calculadora();
+        calcu.setVisible(true);
+        calcu.setLocationRelativeTo(null);
     }
     
 }

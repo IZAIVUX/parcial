@@ -10,4 +10,13 @@ package clases;
  */
 public class operacion {
     
+    public double calculo(double nota1){
+        return(int) (nota1 * 30/100);
+    }
+    public double calcul(double nota2){
+        return(int) (nota2 * 30/100);
+    }
+    public double calc(double nota3){
+        return(int) (nota3 * 40/100);
+    }
 }
